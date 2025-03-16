@@ -168,7 +168,7 @@
     "model_url": "https://huggingface.co/jhu-clsp/FollowIR-7B"
   },
   {
-    "model_name": "mistral-7b-instruct-v0.2",
+    "model_name": "Mistral-7b-instruct-v0.2",
     "type": "List-wise Reranking",
     "ndcg_ori": 74.5,
     "ndcg_ins": 64.4,
