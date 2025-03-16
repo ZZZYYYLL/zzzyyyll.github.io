@@ -210,20 +210,6 @@
     "model_url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta"
   },
   {
-    "model_name": "zephyr-7b-beta",
-    "type": "List-wise Reranking",
-    "ndcg_ori": 70.8,
-    "ndcg_ins": 55.9,
-    "ndcg_rev": 58.0,
-    "robust_ori": 70.8,
-    "robust_ins": 32.0,
-    "robust_rev": 36.4,
-    "p_mrr": 1.7,
-    "wise": -3.2,
-    "sicr": 8.7,
-    "model_url": "https://huggingface.co/castorini/zephyr-7b-beta"
-  },
-  {
     "model_name": "rank_vicuna_7b_v1",
     "type": "List-wise Reranking",
     "ndcg_ori": 75.0,
