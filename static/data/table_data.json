@@ -11,7 +11,67 @@
     "p_mrr": 21.3,
     "wise": -29.5,
     "sicr": 1.0,
-    "model_url": "https://huggingface.co/BAAI/bge-large-en-v1.5"
+    "model_url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
+    "Audience": {
+      "ndcg_ori": 48.6,
+      "ndcg_ins": 38.1,
+      "ndcg_rev": 37.6,
+      "mrr_ori": 22.9,
+      "mrr_ins": 12.9,
+      "mrr_rev": 11.9,
+      "wise": -16.8,
+      "sicr": 0.5
+    },
+    "Keywords": {
+      "ndcg_ori": 46.2,
+      "ndcg_ins": 39.7,
+      "ndcg_rev": 29.4,
+      "mrr_ori": 25.8,
+      "mrr_ins": 11.8,
+      "mrr_rev": 11.5,
+      "wise": -38.2,
+      "sicr": 0.0
+    },
+    "Format": {
+      "ndcg_ori": 58.0,
+      "ndcg_ins": 25.9,
+      "ndcg_rev": 31.4,
+      "mrr_ori": 46.0,
+      "mrr_ins": 5.3,
+      "mrr_rev": 11.3,
+      "wise": -42.1,
+      "sicr": 0.3
+    },
+    "Language": {
+      "ndcg_ori": 42.7,
+      "ndcg_ins": 36.1,
+      "ndcg_rev": 32.0,
+      "mrr_ori": 38.0,
+      "mrr_ins": 19.0,
+      "mrr_rev": 13.5,
+      "wise": -20.7,
+      "sicr": 2.0
+    },
+    "Length": {
+      "ndcg_ori": 62.7,
+      "ndcg_ins": 35.1,
+      "ndcg_rev": 42.0,
+      "mrr_ori": 46.0,
+      "mrr_ins": 9.0,
+      "mrr_rev": 15.7,
+      "wise": -28.6,
+      "sicr": 4.7
+    },
+    "Source": {
+      "ndcg_ori": 59.1,
+      "ndcg_ins": 34.6,
+      "ndcg_rev": 36.8,
+      "mrr_ori": 49.0,
+      "mrr_ins": 12.3,
+      "mrr_rev": 16.7,
+      "wise": -30.7,
+      "sicr": 2.3
+    }
   },
   {
     "model_name": "e5-Large-v2",
@@ -25,7 +85,67 @@
     "p_mrr": 5.6,
     "wise": -23.3,
     "sicr": 0.8,
-    "model_url": "https://huggingface.co/intfloat/e5-large-v2"
+    "model_url": "https://huggingface.co/intfloat/e5-large-v2",
+    "Audience": {
+      "ndcg_ori": 53.9,
+      "ndcg_ins": 45.3,
+      "ndcg_rev": 42.6,
+      "mrr_ori": 32.4,
+      "mrr_ins": 16.7,
+      "mrr_rev": 16.2,
+      "wise": -15.6,
+      "sicr": 1.4
+    },
+    "Keywords": {
+      "ndcg_ori": 60.1,
+      "ndcg_ins": 70.6,
+      "ndcg_rev": 45.0,
+      "mrr_ori": 43.2,
+      "mrr_ins": 46.7,
+      "mrr_rev": 16.0,
+      "wise": -38.3,
+      "sicr": 0.7
+    },
+    "Format": {
+      "ndcg_ori": 59.3,
+      "ndcg_ins": 44.9,
+      "ndcg_rev": 52.0,
+      "mrr_ori": 44.0,
+      "mrr_ins": 20.3,
+      "mrr_rev": 36.7,
+      "wise": -15.5,
+      "sicr": 0.0
+    },
+    "Language": {
+      "ndcg_ori": 52.4,
+      "ndcg_ins": 50.2,
+      "ndcg_rev": 44.6,
+      "mrr_ori": 58.0,
+      "mrr_ins": 35.5,
+      "mrr_rev": 33.5,
+      "wise": -25.3,
+      "sicr": 0.5
+    },
+    "Length": {
+      "ndcg_ori": 73.9,
+      "ndcg_ins": 52.6,
+      "ndcg_rev": 63.0,
+      "mrr_ori": 66.0,
+      "mrr_ins": 26.3,
+      "mrr_rev": 48.0,
+      "wise": -21.6,
+      "sicr": 2.7
+    },
+    "Source": {
+      "ndcg_ori": 61.1,
+      "ndcg_ins": 48.6,
+      "ndcg_rev": 52.1,
+      "mrr_ori": 49.0,
+      "mrr_ins": 22.7,
+      "mrr_rev": 29.0,
+      "wise": -23.2,
+      "sicr": 1.3
+    }
   },
   {
     "model_name": "instructor-xl",
@@ -39,7 +159,67 @@
     "p_mrr": 30.4,
     "wise": -29.8,
     "sicr": 2.7,
-    "model_url": "https://huggingface.co/hkunlp/instructor-xl"
+    "model_url": "https://huggingface.co/hkunlp/instructor-xl",
+    "Audience": {
+      "ndcg_ori": 48.3,
+      "ndcg_ins": 30.1,
+      "ndcg_rev": 31.2,
+      "mrr_ori": 29.5,
+      "mrr_ins": 8.6,
+      "mrr_rev": 10.0,
+      "wise": -27.7,
+      "sicr": 5.7
+    },
+    "Keywords": {
+      "ndcg_ori": 68.5,
+      "ndcg_ins": 48.7,
+      "ndcg_rev": 38.4,
+      "mrr_ori": 56.8,
+      "mrr_ins": 19.9,
+      "mrr_rev": 14.6,
+      "wise": -34.7,
+      "sicr": 2.1
+    },
+    "Format": {
+      "ndcg_ori": 64.2,
+      "ndcg_ins": 35.7,
+      "ndcg_rev": 40.6,
+      "mrr_ori": 54.0,
+      "mrr_ins": 11.7,
+      "mrr_rev": 20.3,
+      "wise": -30.5,
+      "sicr": 0.3
+    },
+    "Language": {
+      "ndcg_ori": 47.6,
+      "ndcg_ins": 37.7,
+      "ndcg_rev": 35.0,
+      "mrr_ori": 54.0,
+      "mrr_ins": 25.0,
+      "mrr_rev": 19.5,
+      "wise": -20.5,
+      "sicr": 4.0
+    },
+    "Length": {
+      "ndcg_ori": 75.7,
+      "ndcg_ins": 38.1,
+      "ndcg_rev": 47.3,
+      "mrr_ori": 74.0,
+      "mrr_ins": 12.3,
+      "mrr_rev": 25.3,
+      "wise": -35.5,
+      "sicr": 1.7
+    },
+    "Source": {
+      "ndcg_ori": 70.5,
+      "ndcg_ins": 40.0,
+      "ndcg_rev": 43.7,
+      "mrr_ori": 66.0,
+      "mrr_ins": 13.0,
+      "mrr_rev": 15.3,
+      "wise": -29.8,
+      "sicr": 4.0
+    }
   },
   {
     "model_name": "Mistral-7B-Instruct-v0.2",
@@ -53,7 +233,67 @@
     "p_mrr": -32.4,
     "wise": -49.2,
     "sicr": 0.0,
-    "model_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2"
+    "model_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+    "Audience": {
+      "ndcg_ori": 31.1,
+      "ndcg_ins": 35.6,
+      "ndcg_rev": 37.5,
+      "mrr_ori": 20.0,
+      "mrr_ins": 17.1,
+      "mrr_rev": 17.1,
+      "wise": -35.8,
+      "sicr": 0.0
+    },
+    "Keywords": {
+      "ndcg_ori": 31.7,
+      "ndcg_ins": 28.5,
+      "ndcg_rev": 37.0,
+      "mrr_ori": 30.7,
+      "mrr_ins": 7.3,
+      "mrr_rev": 19.9,
+      "wise": -67.8,
+      "sicr": 0.0
+    },
+    "Format": {
+      "ndcg_ori": 2.4,
+      "ndcg_ins": 3.2,
+      "ndcg_rev": 4.3,
+      "mrr_ori": 0.0,
+      "mrr_ins": 1.0,
+      "mrr_rev": 1.3,
+      "wise": -29.7,
+      "sicr": 0.0
+    },
+    "Language": {
+      "ndcg_ori": 20.7,
+      "ndcg_ins": 30.0,
+      "ndcg_rev": 29.5,
+      "mrr_ori": 19.0,
+      "mrr_ins": 21.0,
+      "mrr_rev": 19.0,
+      "wise": -31.9,
+      "sicr": 0.0
+    },
+    "Length": {
+      "ndcg_ori": 11.8,
+      "ndcg_ins": 22.6,
+      "ndcg_rev": 27.6,
+      "mrr_ori": 13.0,
+      "mrr_ins": 11.7,
+      "mrr_rev": 25.0,
+      "wise": -66.6,
+      "sicr": 0.0
+    },
+    "Source": {
+      "ndcg_ori": 19.9,
+      "ndcg_ins": 32.9,
+      "ndcg_rev": 39.2,
+      "mrr_ori": 18.0,
+      "mrr_ins": 12.0,
+      "mrr_rev": 24.0,
+      "wise": -63.3,
+      "sicr": 0.0
+    }
   },
   {
     "model_name": "gte-Qwen2-7B-instruct",
@@ -67,7 +307,67 @@
     "p_mrr": -21.7,
     "wise": -39.0,
     "sicr": 0.1,
-    "model_url": "https://huggingface.co/Alibaba-NLP/gte-Qwen2-7B-instruct"
+    "model_url": "https://huggingface.co/Alibaba-NLP/gte-Qwen2-7B-instruct",
+    "Audience": {
+      "ndcg_ori": 56.4,
+      "ndcg_ins": 57.0,
+      "ndcg_rev": 57.3,
+      "mrr_ori": 46.7,
+      "mrr_ins": 35.2,
+      "mrr_rev": 35.2,
+      "wise": -34.0,
+      "sicr": 0.0
+    },
+    "Keywords": {
+      "ndcg_ori": 58.9,
+      "ndcg_ins": 43.5,
+      "ndcg_rev": 49.3,
+      "mrr_ori": 58.2,
+      "mrr_ins": 18.1,
+      "mrr_rev": 32.8,
+      "wise": -36.5,
+      "sicr": 0.0
+    },
+    "Format": {
+      "ndcg_ori": 14.3,
+      "ndcg_ins": 14.6,
+      "ndcg_rev": 19.0,
+      "mrr_ori": 13.0,
+      "mrr_ins": 5.3,
+      "mrr_rev": 12.3,
+      "wise": -44.3,
+      "sicr": 0.0
+    },
+    "Language": {
+      "ndcg_ori": 38.5,
+      "ndcg_ins": 36.8,
+      "ndcg_rev": 37.9,
+      "mrr_ori": 43.0,
+      "mrr_ins": 27.0,
+      "mrr_rev": 28.5,
+      "wise": -18.0,
+      "sicr": 0.0
+    },
+    "Length": {
+      "ndcg_ori": 34.4,
+      "ndcg_ins": 47.3,
+      "ndcg_rev": 55.0,
+      "mrr_ori": 32.0,
+      "mrr_ins": 22.3,
+      "mrr_rev": 42.7,
+      "wise": -56.4,
+      "sicr": 0.3
+    },
+    "Source": {
+      "ndcg_ori": 58.2,
+      "ndcg_ins": 59.2,
+      "ndcg_rev": 72.4,
+      "mrr_ori": 55.0,
+      "mrr_ins": 29.0,
+      "mrr_rev": 53.0,
+      "wise": -44.6,
+      "sicr": 0.0
+    }
   },
   {
     "model_name": "e5-mistral-7b-instruct",
@@ -81,7 +381,67 @@
     "p_mrr": 4.0,
     "wise": -16.3,
     "sicr": 2.8,
-    "model_url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct"
+    "model_url": "https://huggingface.co/intfloat/e5-mistral-7b-instruct",
+    "Audience": {
+      "ndcg_ori": 78.9,
+      "ndcg_ins": 63.3,
+      "ndcg_rev": 64.3,
+      "mrr_ori": 72.4,
+      "mrr_ins": 34.8,
+      "mrr_rev": 35.2,
+      "wise": -7.3,
+      "sicr": 2.9
+    },
+    "Keywords": {
+      "ndcg_ori": 72.3,
+      "ndcg_ins": 79.5,
+      "ndcg_rev": 71.8,
+      "mrr_ori": 60.6,
+      "mrr_ins": 57.1,
+      "mrr_rev": 33.1,
+      "wise": -44.5,
+      "sicr": 0.0
+    },
+    "Format": {
+      "ndcg_ori": 72.2,
+      "ndcg_ins": 46.7,
+      "ndcg_rev": 58.9,
+      "mrr_ori": 72.0,
+      "mrr_ins": 17.7,
+      "mrr_rev": 37.0,
+      "wise": -19.9,
+      "sicr": 0.0
+    },
+    "Language": {
+      "ndcg_ori": 81.5,
+      "ndcg_ins": 73.4,
+      "ndcg_rev": 62.4,
+      "mrr_ori": 80.0,
+      "mrr_ins": 48.5,
+      "mrr_rev": 40.0,
+      "wise": 0.1,
+      "sicr": 10.5
+    },
+    "Length": {
+      "ndcg_ori": 86.2,
+      "ndcg_ins": 64.2,
+      "ndcg_rev": 76.2,
+      "mrr_ori": 92.0,
+      "mrr_ins": 33.0,
+      "mrr_rev": 60.3,
+      "wise": -13.4,
+      "sicr": 0.0
+    },
+    "Source": {
+      "ndcg_ori": 76.2,
+      "ndcg_ins": 58.9,
+      "ndcg_rev": 62.4,
+      "mrr_ori": 70.0,
+      "mrr_ins": 30.7,
+      "mrr_rev": 36.0,
+      "wise": -13.0,
+      "sicr": 3.3
+    }
   },
   {
     "model_name": "GritLM-7B",
@@ -95,7 +455,67 @@
     "p_mrr": -4.3,
     "wise": -11.1,
     "sicr": 6.9,
-    "model_url": "https://huggingface.co/GritLM/GritLM-7B"
+    "model_url": "https://huggingface.co/GritLM/GritLM-7B",
+    "Audience": {
+      "ndcg_ori": 56.2,
+      "ndcg_ins": 56.7,
+      "ndcg_rev": 57.1,
+      "mrr_ori": 41.9,
+      "mrr_ins": 31.4,
+      "mrr_rev": 30.0,
+      "wise": -3.4,
+      "sicr": 11.4
+    },
+    "Keywords": {
+      "ndcg_ori": 85.9,
+      "ndcg_ins": 79.4,
+      "ndcg_rev": 67.2,
+      "mrr_ori": 89.2,
+      "mrr_ins": 58.2,
+      "mrr_rev": 46.0,
+      "wise": 6.8,
+      "sicr": 11.8
+    },
+    "Format": {
+      "ndcg_ori": 45.5,
+      "ndcg_ins": 48.4,
+      "ndcg_rev": 53.8,
+      "mrr_ori": 31.0,
+      "mrr_ins": 21.3,
+      "mrr_rev": 38.7,
+      "wise": -36.0,
+      "sicr": 1.3
+    },
+    "Language": {
+      "ndcg_ori": 82.6,
+      "ndcg_ins": 81.0,
+      "ndcg_rev": 75.9,
+      "mrr_ori": 78.0,
+      "mrr_ins": 57.0,
+      "mrr_rev": 48.0,
+      "wise": -6.7,
+      "sicr": 4.5
+    },
+    "Length": {
+      "ndcg_ori": 74.0,
+      "ndcg_ins": 65.4,
+      "ndcg_rev": 76.6,
+      "mrr_ori": 76.0,
+      "mrr_ins": 36.0,
+      "mrr_rev": 61.7,
+      "wise": -25.8,
+      "sicr": 0.3
+    },
+    "Source": {
+      "ndcg_ori": 80.3,
+      "ndcg_ins": 66.3,
+      "ndcg_rev": 67.5,
+      "mrr_ori": 76.0,
+      "mrr_ins": 40.7,
+      "mrr_rev": 46.0,
+      "wise": -1.5,
+      "sicr": 11.7
+    }
   },
   {
     "model_name": "SFR-Embedding-2-R",
@@ -109,7 +529,67 @@
     "p_mrr": -4.8,
     "wise": -18.1,
     "sicr": 2.1,
-    "model_url": "https://huggingface.co/Salesforce/SFR-Embedding-2_R"
+    "model_url": "https://huggingface.co/Salesforce/SFR-Embedding-2_R",
+    "Audience": {
+      "ndcg_ori": 63.2,
+      "ndcg_ins": 51.6,
+      "ndcg_rev": 52.0,
+      "mrr_ori": 41.9,
+      "mrr_ins": 24.8,
+      "mrr_rev": 22.9,
+      "wise": -7.8,
+      "sicr": 2.9
+    },
+    "Keywords": {
+      "ndcg_ori": 47.3,
+      "ndcg_ins": 64.5,
+      "ndcg_rev": 47.7,
+      "mrr_ori": 30.7,
+      "mrr_ins": 38.3,
+      "mrr_rev": 24.4,
+      "wise": -45.9,
+      "sicr": 1.0
+    },
+    "Format": {
+      "ndcg_ori": 75.4,
+      "ndcg_ins": 53.0,
+      "ndcg_rev": 63.1,
+      "mrr_ori": 76.0,
+      "mrr_ins": 23.7,
+      "mrr_rev": 46.3,
+      "wise": -13.0,
+      "sicr": 2.0
+    },
+    "Language": {
+      "ndcg_ori": 81.5,
+      "ndcg_ins": 81.7,
+      "ndcg_rev": 64.3,
+      "mrr_ori": 77.0,
+      "mrr_ins": 61.0,
+      "mrr_rev": 31.5,
+      "wise": -15.4,
+      "sicr": 1.0
+    },
+    "Length": {
+      "ndcg_ori": 75.7,
+      "ndcg_ins": 59.1,
+      "ndcg_rev": 70.7,
+      "mrr_ori": 70.0,
+      "mrr_ins": 27.7,
+      "mrr_rev": 53.3,
+      "wise": -13.5,
+      "sicr": 1.0
+    },
+    "Source": {
+      "ndcg_ori": 78.9,
+      "ndcg_ins": 63.1,
+      "ndcg_rev": 62.6,
+      "mrr_ori": 74.0,
+      "mrr_ins": 37.0,
+      "mrr_rev": 35.3,
+      "wise": -13.2,
+      "sicr": 4.7
+    }
   },
   {
     "model_name": "NV-Embed-v2",
@@ -123,7 +603,67 @@
     "p_mrr": 17.7,
     "wise": -13.5,
     "sicr": 2.8,
-    "model_url": "https://huggingface.co/nvidia/NV-Embed-v2"
+    "model_url": "https://huggingface.co/nvidia/NV-Embed-v2",
+    "Audience": {
+      "ndcg_ori": 65.3,
+      "ndcg_ins": 47.6,
+      "ndcg_rev": 47.5,
+      "mrr_ori": 44.8,
+      "mrr_ins": 17.6,
+      "mrr_rev": 17.1,
+      "wise": -9.8,
+      "sicr": 2.4
+    },
+    "Keywords": {
+      "ndcg_ori": 61.5,
+      "ndcg_ins": 61.4,
+      "ndcg_rev": 40.2,
+      "mrr_ori": 49.8,
+      "mrr_ins": 34.8,
+      "mrr_rev": 17.1,
+      "wise": -27.7,
+      "sicr": 0.7
+    },
+    "Format": {
+      "ndcg_ori": 67.5,
+      "ndcg_ins": 41.5,
+      "ndcg_rev": 53.1,
+      "mrr_ori": 59.0,
+      "mrr_ins": 15.3,
+      "mrr_rev": 30.7,
+      "wise": -18.1,
+      "sicr": 1.0
+    },
+    "Language": {
+      "ndcg_ori": 68.3,
+      "ndcg_ins": 67.4,
+      "ndcg_rev": 59.6,
+      "mrr_ori": 72.0,
+      "mrr_ins": 39.0,
+      "mrr_rev": 33.5,
+      "wise": -7.3,
+      "sicr": 3.5
+    },
+    "Length": {
+      "ndcg_ori": 81.9,
+      "ndcg_ins": 55.3,
+      "ndcg_rev": 65.6,
+      "mrr_ori": 83.0,
+      "mrr_ins": 26.7,
+      "mrr_rev": 48.0,
+      "wise": -9.3,
+      "sicr": 0.3
+    },
+    "Source": {
+      "ndcg_ori": 71.3,
+      "ndcg_ins": 53.8,
+      "ndcg_rev": 47.5,
+      "mrr_ori": 67.0,
+      "mrr_ins": 29.7,
+      "mrr_rev": 23.3,
+      "wise": -8.7,
+      "sicr": 9.0
+    }
   },
   {
     "model_name": "Mistral-7B-Instruct-v0.2",
@@ -137,7 +677,67 @@
     "p_mrr": -2.3,
     "wise": 4.1,
     "sicr": 8.1,
-    "model_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2"
+    "model_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+    "Audience": {
+      "ndcg_ori": 75.8,
+      "ndcg_ins": 60.9,
+      "ndcg_rev": 63.6,
+      "mrr_ori": 62.9,
+      "mrr_ins": 28.1,
+      "mrr_rev": 35.2,
+      "wise": -8.9,
+      "sicr": 1.4
+    },
+    "Keywords": {
+      "ndcg_ori": 39.9,
+      "ndcg_ins": 63.6,
+      "ndcg_rev": 38.0,
+      "mrr_ori": 16.7,
+      "mrr_ins": 40.1,
+      "mrr_rev": 16.0,
+      "wise": 34.5,
+      "sicr": 28.6
+    },
+    "Format": {
+      "ndcg_ori": 62.2,
+      "ndcg_ins": 50.8,
+      "ndcg_rev": 61.7,
+      "mrr_ori": 43.0,
+      "mrr_ins": 21.3,
+      "mrr_rev": 35.7,
+      "wise": -9.3,
+      "sicr": 2.7
+    },
+    "Language": {
+      "ndcg_ori": 58.9,
+      "ndcg_ins": 63.3,
+      "ndcg_rev": 60.8,
+      "mrr_ori": 32.0,
+      "mrr_ins": 38.5,
+      "mrr_rev": 32.0,
+      "wise": 21.4,
+      "sicr": 6.5
+    },
+    "Length": {
+      "ndcg_ori": 60.3,
+      "ndcg_ins": 52.3,
+      "ndcg_rev": 60.2,
+      "mrr_ori": 42.0,
+      "mrr_ins": 24.0,
+      "mrr_rev": 38.0,
+      "wise": -12.6,
+      "sicr": 4.7
+    },
+    "Source": {
+      "ndcg_ori": 71.5,
+      "ndcg_ins": 59.7,
+      "ndcg_rev": 69.7,
+      "mrr_ori": 56.0,
+      "mrr_ins": 24.3,
+      "mrr_rev": 48.0,
+      "wise": -0.3,
+      "sicr": 4.7
+    }
   },
   {
     "model_name": "Llama-3.1-8B-Instruct",
@@ -151,7 +751,67 @@
     "p_mrr": 11.5,
     "wise": 14.4,
     "sicr": 19.3,
-    "model_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
+    "model_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "Audience": {
+      "ndcg_ori": 79.9,
+      "ndcg_ins": 65.1,
+      "ndcg_rev": 67.4,
+      "mrr_ori": 68.6,
+      "mrr_ins": 36.7,
+      "mrr_rev": 41.4,
+      "wise": -6.2,
+      "sicr": 6.2
+    },
+    "Keywords": {
+      "ndcg_ori": 61.7,
+      "ndcg_ins": 76.9,
+      "ndcg_rev": 48.4,
+      "mrr_ori": 48.4,
+      "mrr_ins": 54.0,
+      "mrr_rev": 28.2,
+      "wise": 38.7,
+      "sicr": 38.3
+    },
+    "Format": {
+      "ndcg_ori": 68.0,
+      "ndcg_ins": 51.2,
+      "ndcg_rev": 59.5,
+      "mrr_ori": 58.0,
+      "mrr_ins": 18.3,
+      "mrr_rev": 32.7,
+      "wise": -9.5,
+      "sicr": 10.0
+    },
+    "Language": {
+      "ndcg_ori": 67.9,
+      "ndcg_ins": 71.9,
+      "ndcg_rev": 64.2,
+      "mrr_ori": 61.0,
+      "mrr_ins": 44.5,
+      "mrr_rev": 36.5,
+      "wise": 29.0,
+      "sicr": 22.0
+    },
+    "Length": {
+      "ndcg_ori": 84.4,
+      "ndcg_ins": 64.1,
+      "ndcg_rev": 73.0,
+      "mrr_ori": 86.0,
+      "mrr_ins": 36.7,
+      "mrr_rev": 56.0,
+      "wise": -5.9,
+      "sicr": 2.7
+    },
+    "Source": {
+      "ndcg_ori": 84.9,
+      "ndcg_ins": 71.4,
+      "ndcg_rev": 79.9,
+      "mrr_ori": 91.0,
+      "mrr_ins": 46.0,
+      "mrr_rev": 75.7,
+      "wise": 40.2,
+      "sicr": 36.7
+    }
   },
   {
     "model_name": "FollowIR-7B",
@@ -165,7 +825,67 @@
     "p_mrr": 4.1,
     "wise": 13.4,
     "sicr": 12.5,
-    "model_url": "https://huggingface.co/jhu-clsp/FollowIR-7B"
+    "model_url": "https://huggingface.co/jhu-clsp/FollowIR-7B",
+    "Audience": {
+      "ndcg_ori": 76.9,
+      "ndcg_ins": 64.9,
+      "ndcg_rev": 63.6,
+      "mrr_ori": 69.5,
+      "mrr_ins": 35.7,
+      "mrr_rev": 35.2,
+      "wise": -2.3,
+      "sicr": 3.3
+    },
+    "Keywords": {
+      "ndcg_ori": 51.2,
+      "ndcg_ins": 78.1,
+      "ndcg_rev": 45.7,
+      "mrr_ori": 34.1,
+      "mrr_ins": 59.9,
+      "mrr_rev": 25.8,
+      "wise": 47.7,
+      "sicr": 27.2
+    },
+    "Format": {
+      "ndcg_ori": 72.2,
+      "ndcg_ins": 54.9,
+      "ndcg_rev": 68.5,
+      "mrr_ori": 62.0,
+      "mrr_ins": 23.3,
+      "mrr_rev": 50.0,
+      "wise": -2.3,
+      "sicr": 7.0
+    },
+    "Language": {
+      "ndcg_ori": 68.4,
+      "ndcg_ins": 70.6,
+      "ndcg_rev": 64.7,
+      "mrr_ori": 54.0,
+      "mrr_ins": 48.0,
+      "mrr_rev": 37.0,
+      "wise": 20.9,
+      "sicr": 19.5
+    },
+    "Length": {
+      "ndcg_ori": 80.3,
+      "ndcg_ins": 61.9,
+      "ndcg_rev": 71.5,
+      "mrr_ori": 80.0,
+      "mrr_ins": 35.0,
+      "mrr_rev": 55.7,
+      "wise": -2.6,
+      "sicr": 1.7
+    },
+    "Source": {
+      "ndcg_ori": 81.9,
+      "ndcg_ins": 67.4,
+      "ndcg_rev": 79.3,
+      "mrr_ori": 74.0,
+      "mrr_ins": 35.7,
+      "mrr_rev": 65.0,
+      "wise": 18.8,
+      "sicr": 16.3
+    }
   },
   {
     "model_name": "Mistral-7b-instruct-v0.2",
@@ -179,7 +899,67 @@
     "p_mrr": 7.2,
     "wise": 8.1,
     "sicr": 22.0,
-    "model_url": "https://huggingface.co/mistralai/mistral-7b-instruct-v0.2"
+    "model_url": "https://huggingface.co/mistralai/mistral-7b-instruct-v0.2",
+    "Audience": {
+      "ndcg_ori": 68.7,
+      "ndcg_ins": 58.9,
+      "ndcg_rev": 58.6,
+      "mrr_ori": 51.4,
+      "mrr_ins": 29.0,
+      "mrr_rev": 28.6,
+      "wise": -6.3,
+      "sicr": 10.5
+    },
+    "Keywords": {
+      "ndcg_ori": 67.4,
+      "ndcg_ins": 79.3,
+      "ndcg_rev": 43.8,
+      "mrr_ori": 59.2,
+      "mrr_ins": 64.1,
+      "mrr_rev": 27.2,
+      "wise": 46.0,
+      "sicr": 59.2
+    },
+    "Format": {
+      "ndcg_ori": 69.1,
+      "ndcg_ins": 50.8,
+      "ndcg_rev": 58.3,
+      "mrr_ori": 69.0,
+      "mrr_ins": 24.3,
+      "mrr_rev": 42.3,
+      "wise": -6.6,
+      "sicr": 9.7
+    },
+    "Language": {
+      "ndcg_ori": 73.7,
+      "ndcg_ins": 70.7,
+      "ndcg_rev": 63.5,
+      "mrr_ori": 69.0,
+      "mrr_ins": 49.5,
+      "mrr_rev": 38.5,
+      "wise": 7.6,
+      "sicr": 23.0
+    },
+    "Length": {
+      "ndcg_ori": 88.7,
+      "ndcg_ins": 66.0,
+      "ndcg_rev": 76.8,
+      "mrr_ori": 92.0,
+      "mrr_ins": 38.7,
+      "mrr_rev": 64.7,
+      "wise": -1.9,
+      "sicr": 8.0
+    },
+    "Source": {
+      "ndcg_ori": 77.7,
+      "ndcg_ins": 60.8,
+      "ndcg_rev": 68.6,
+      "mrr_ori": 78.0,
+      "mrr_ins": 34.3,
+      "mrr_rev": 57.0,
+      "wise": 10.0,
+      "sicr": 21.7
+    }
   },
   {
     "model_name": "zephyr-7b-beta",
@@ -193,7 +973,67 @@
     "p_mrr": 1.7,
     "wise": -3.2,
     "sicr": 8.7,
-    "model_url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta"
+    "model_url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
+    "Audience": {
+      "ndcg_ori": 77.0,
+      "ndcg_ins": 62.1,
+      "ndcg_rev": 62.6,
+      "mrr_ori": 71.4,
+      "mrr_ins": 35.2,
+      "mrr_rev": 37.6,
+      "wise": -2.7,
+      "sicr": 1.0
+    },
+    "Keywords": {
+      "ndcg_ori": 68.9,
+      "ndcg_ins": 65.2,
+      "ndcg_rev": 47.8,
+      "mrr_ori": 59.9,
+      "mrr_ins": 47.0,
+      "mrr_rev": 32.8,
+      "wise": 14.1,
+      "sicr": 27.5
+    },
+    "Format": {
+      "ndcg_ori": 48.8,
+      "ndcg_ins": 35.2,
+      "ndcg_rev": 42.3,
+      "mrr_ori": 51.0,
+      "mrr_ins": 15.3,
+      "mrr_rev": 36.7,
+      "wise": -13.9,
+      "sicr": 8.0
+    },
+    "Language": {
+      "ndcg_ori": 70.9,
+      "ndcg_ins": 58.7,
+      "ndcg_rev": 58.1,
+      "mrr_ori": 68.0,
+      "mrr_ins": 38.5,
+      "mrr_rev": 37.5,
+      "wise": -6.9,
+      "sicr": 10.5
+    },
+    "Length": {
+      "ndcg_ori": 85.8,
+      "ndcg_ins": 61.5,
+      "ndcg_rev": 74.6,
+      "mrr_ori": 93.0,
+      "mrr_ins": 31.7,
+      "mrr_rev": 63.0,
+      "wise": -5.7,
+      "sicr": 2.0
+    },
+    "Source": {
+      "ndcg_ori": 70.4,
+      "ndcg_ins": 52.9,
+      "ndcg_rev": 62.8,
+      "mrr_ori": 65.0,
+      "mrr_ins": 23.7,
+      "mrr_rev": 44.0,
+      "wise": -3.9,
+      "sicr": 3.0
+    }
   },
   {
     "model_name": "rank_zephyr_7b_v1_full",
@@ -207,7 +1047,67 @@
     "p_mrr": 2.0,
     "wise": -6.5,
     "sicr": 5.6,
-    "model_url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta"
+    "model_url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
+    "Audience": {
+      "ndcg_ori": 71.0,
+      "ndcg_ins": 58.9,
+      "ndcg_rev": 59.2,
+      "mrr_ori": 56.2,
+      "mrr_ins": 31.0,
+      "mrr_rev": 30.0,
+      "wise": 7.4,
+      "sicr": 4.3
+    },
+    "Keywords": {
+      "ndcg_ori": 72.6,
+      "ndcg_ins": 77.3,
+      "ndcg_rev": 52.0,
+      "mrr_ori": 79.1,
+      "mrr_ins": 60.6,
+      "mrr_rev": 34.5,
+      "wise": 53.9,
+      "sicr": 42.5
+    },
+    "Format": {
+      "ndcg_ori": 73.0,
+      "ndcg_ins": 52.6,
+      "ndcg_rev": 63.5,
+      "mrr_ori": 61.0,
+      "mrr_ins": 20.3,
+      "mrr_rev": 41.7,
+      "wise": 7.8,
+      "sicr": 1.0
+    },
+    "Language": {
+      "ndcg_ori": 79.5,
+      "ndcg_ins": 66.6,
+      "ndcg_rev": 66.9,
+      "mrr_ori": 69.5,
+      "mrr_ins": 38.5,
+      "mrr_rev": 37.5,
+      "wise": 10.6,
+      "sicr": 5.5
+    },
+    "Length": {
+      "ndcg_ori": 86.1,
+      "ndcg_ins": 63.5,
+      "ndcg_rev": 75.7,
+      "mrr_ori": 90.0,
+      "mrr_ins": 34.0,
+      "mrr_rev": 59.7,
+      "wise": 7.8,
+      "sicr": 4.3
+    },
+    "Source": {
+      "ndcg_ori": 82.8,
+      "ndcg_ins": 61.8,
+      "ndcg_rev": 71.0,
+      "mrr_ori": 85.0,
+      "mrr_ins": 33.7,
+      "mrr_rev": 56.0,
+      "wise": -0.3,
+      "sicr": 5.3
+    }
   },
   {
     "model_name": "rank_vicuna_7b_v1",
@@ -221,7 +1121,67 @@
     "p_mrr": 0.7,
     "wise": 14.5,
     "sicr": 10.5,
-    "model_url": "https://huggingface.co/castorini/rank_vicuna_7b_v1"
+    "model_url": "https://huggingface.co/castorini/rank_vicuna_7b_v1",
+    "Audience": {
+      "ndcg_ori": 62.2,
+      "ndcg_ins": 52.5,
+      "ndcg_rev": 51.2,
+      "mrr_ori": 50.5,
+      "mrr_ins": 27.1,
+      "mrr_rev": 25.7,
+      "wise": -2.5,
+      "sicr": 5.2
+    },
+    "Keywords": {
+      "ndcg_ori": 66.8,
+      "ndcg_ins": 75.6,
+      "ndcg_rev": 51.9,
+      "mrr_ori": 65.2,
+      "mrr_ins": 57.8,
+      "mrr_rev": 32.1,
+      "wise": -8.5,
+      "sicr": 10.5
+    },
+    "Format": {
+      "ndcg_ori": 44.4,
+      "ndcg_ins": 33.3,
+      "ndcg_rev": 41.3,
+      "mrr_ori": 32.0,
+      "mrr_ins": 12.7,
+      "mrr_rev": 25.3,
+      "wise": -9.8,
+      "sicr": 3.3
+    },
+    "Language": {
+      "ndcg_ori": 63.4,
+      "ndcg_ins": 55.5,
+      "ndcg_rev": 53.2,
+      "mrr_ori": 54.0,
+      "mrr_ins": 29.5,
+      "mrr_rev": 29.5,
+      "wise": -11.8,
+      "sicr": 4.5
+    },
+    "Length": {
+      "ndcg_ori": 84.8,
+      "ndcg_ins": 61.8,
+      "ndcg_rev": 74.1,
+      "mrr_ori": 93.0,
+      "mrr_ins": 32.7,
+      "mrr_rev": 60.7,
+      "wise": -4.3,
+      "sicr": 2.3
+    },
+    "Source": {
+      "ndcg_ori": 68.7,
+      "ndcg_ins": 52.7,
+      "ndcg_rev": 59.5,
+      "mrr_ori": 74.0,
+      "mrr_ins": 30.3,
+      "mrr_rev": 50.0,
+      "wise": -2.2,
+      "sicr": 8.0
+    }
   },
   {
     "model_name": "gpt-4o",
@@ -235,6 +1195,66 @@
     "p_mrr": 15.0,
     "wise": 33.5,
     "sicr": 32.1,
-    "model_url": "https://openai.com/chatgpt/overview/"
+    "model_url": "https://openai.com/chatgpt/overview/",
+    "Audience": {
+      "ndcg_ori": 87.7,
+      "ndcg_ins": 72.5,
+      "ndcg_rev": 72.6,
+      "mrr_ori": 88.6,
+      "mrr_ins": 48.6,
+      "mrr_rev": 48.6,
+      "wise": 7.4,
+      "sicr": 15.2
+    },
+    "Keywords": {
+      "ndcg_ori": 71.8,
+      "ndcg_ins": 78.8,
+      "ndcg_rev": 61.9,
+      "mrr_ori": 66.2,
+      "mrr_ins": 70.7,
+      "mrr_rev": 51.6,
+      "wise": 63.0,
+      "sicr": 60.6
+    },
+    "Format": {
+      "ndcg_ori": 78.7,
+      "ndcg_ins": 59.4,
+      "ndcg_rev": 67.7,
+      "mrr_ori": 84.0,
+      "mrr_ins": 32.0,
+      "mrr_rev": 52.3,
+      "wise": 21.9,
+      "sicr": 11.3
+    },
+    "Language": {
+      "ndcg_ori": 83.2,
+      "ndcg_ins": 86.2,
+      "ndcg_rev": 82.2,
+      "mrr_ori": 83.0,
+      "mrr_ins": 75.5,
+      "mrr_rev": 65.5,
+      "wise": 53.1,
+      "sicr": 55.5
+    },
+    "Length": {
+      "ndcg_ori": 89.1,
+      "ndcg_ins": 68.8,
+      "ndcg_rev": 79.0,
+      "mrr_ori": 95.0,
+      "mrr_ins": 42.0,
+      "mrr_rev": 67.3,
+      "wise": 10.2,
+      "sicr": 10.3
+    },
+    "Source": {
+      "ndcg_ori": 89.4,
+      "ndcg_ins": 79.5,
+      "ndcg_rev": 82.0,
+      "mrr_ori": 93.0,
+      "mrr_ins": 65.7,
+      "mrr_rev": 77.3,
+      "wise": 45.2,
+      "sicr": 39.7
+    }
   }
 ]

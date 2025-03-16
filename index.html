@@ -147,7 +147,7 @@
     <div class="container is-max-desktop">
         <div class="hero-body">
             <p>
-                <img src="/static/images/retrieval_modes.png" alt="Learning from model weights"
+                <img src="static/images/retrieval_modes.png" alt="Learning from model weights"
                      class="blend-img-background center-image" style="max-width: 100%; height: auto;">
             </p>
             <br>
@@ -264,6 +264,10 @@
         margin-bottom: 15px;
     }
 
+    h5.title.has-text-centered {
+        font-size: 1.5em; /* Adjust the size as needed */
+    }
+
     th {
         cursor: pointer;
     }
@@ -324,97 +328,147 @@
     document.addEventListener("DOMContentLoaded", loadTableData);
 </script>
 
+<section class="section hero is-light">
+    <div class="container is-max-desktop">
+        <h2 class="title has-text-centered">🔍 Analysis of Different Models 🔍</h2>
+        <br>
+        <h5 class="title has-text-centered">Retrieval Model Comparison - WISE Radar Chart</h5>
+        <div class="dropdown" id="retrieval-dropdown">
+            <div class="dropdown-trigger">
+                <button class="button" aria-haspopup="true" aria-controls="retrieval-menu">
+                    <span>Select Models</span>
+                    <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="dropdown-menu" id="retrieval-menu" role="menu">
+                <div class="dropdown-content" id="retrieval-list"></div>
+            </div>
+        </div>
 
-<!-- End paper abstract -->
-<!--<section class="hero is-small">-->
-<!--    <div class="hero-body">-->
-<!--        <div class="container">-->
-<!--            <h2 class="title has-text-centered">InfoSearch Benchmark</h2>-->
-<!--            <div id="results-table" class="table-container">-->
-<!--                <div class="scrollable-table">-->
-<!--                    <table id="dynamic-table" class="table is-striped is-hoverable is-fullwidth">-->
-<!--                        <thead>-->
-<!--                            <tr>-->
-<!--                                <th onclick="sortTable(0)">Column 1 ▲▼</th>-->
-<!--                                <th onclick="sortTable(1)">Column 2 ▲▼</th>-->
-<!--                                <th onclick="sortTable(2)">Column 3 ▲▼</th>-->
-<!--                                <th onclick="sortTable(3)">Column 4 ▲▼</th>-->
-<!--                            </tr>-->
-<!--                        </thead>-->
-<!--                        <tbody id="table-body">-->
-<!--                            &lt;!&ndash; Data will be dynamically loaded here &ndash;&gt;-->
-<!--                        </tbody>-->
-<!--                    </table>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
+        <canvas id="retrievalRadarChart"></canvas>
+    </div>
+</section>
 
-<!--<script>-->
-<!--    async function loadTableData() {-->
-<!--        try {-->
-<!--            const response = await fetch('static/data/table_data.json'); // Load data from external file-->
-<!--            const data = await response.json();-->
-<!--            const tableBody = document.getElementById("table-body");-->
-<!--            tableBody.innerHTML = "";-->
-<!--            data.forEach(row => {-->
-<!--                const tr = document.createElement("tr");-->
-<!--                row.forEach(cell => {-->
-<!--                    const td = document.createElement("td");-->
-<!--                    td.textContent = cell;-->
-<!--                    tr.appendChild(td);-->
-<!--                });-->
-<!--                tableBody.appendChild(tr);-->
-<!--            });-->
-<!--        } catch (error) {-->
-<!--            console.error("Error loading table data:", error);-->
-<!--        }-->
-<!--    }-->
+<section class="section hero is-light">
+    <div class="container is-max-desktop">
+        <h5 class="title has-text-centered">Reranking Model Comparison - WISE Radar Chart</h5>
+        <div class="dropdown" id="reranking-dropdown">
+            <div class="dropdown-trigger">
+                <button class="button" aria-haspopup="true" aria-controls="reranking-menu">
+                    <span>Select Models</span>
+                    <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="dropdown-menu" id="reranking-menu" role="menu">
+                <div class="dropdown-content" id="reranking-list"></div>
+            </div>
+        </div>
 
-<!--    function sortTable(columnIndex) {-->
-<!--        const table = document.getElementById("dynamic-table");-->
-<!--        const tbody = table.getElementsByTagName("tbody")[0];-->
-<!--        const rows = Array.from(tbody.getElementsByTagName("tr"));-->
-<!--        const ascending = table.getAttribute("data-sort-asc") === "true";-->
+        <canvas id="rerankingRadarChart"></canvas>
+    </div>
+</section>
 
-<!--        rows.sort((a, b) => {-->
-<!--            const cellA = a.getElementsByTagName("td")[columnIndex].textContent.trim();-->
-<!--            const cellB = b.getElementsByTagName("td")[columnIndex].textContent.trim();-->
-<!--            return ascending ? cellA.localeCompare(cellB, 'zh') : cellB.localeCompare(cellA, 'zh');-->
-<!--        });-->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    async function loadModelData() {
+        const response = await fetch('static/data/table_data.json');
+        const data = await response.json();
 
-<!--        table.setAttribute("data-sort-asc", !ascending);-->
-<!--        tbody.innerHTML = "";-->
-<!--        rows.forEach(row => tbody.appendChild(row));-->
-<!--    }-->
+        console.log("Loaded data:", data);
 
-<!--    document.addEventListener("DOMContentLoaded", loadTableData);-->
-<!--</script>-->
+        const retrievalModels = data.filter(model => model.type.toLowerCase().includes('retrieval'));
+        const rerankingModels = data.filter(model => model.type.toLowerCase().includes('reranking'));
 
-<!--<style>-->
-<!--    .table-container {-->
-<!--        max-width: 100%;-->
-<!--    }-->
-<!--    .scrollable-table {-->
-<!--        max-height: 1000px;-->
-<!--        overflow-y: auto;-->
-<!--        border: 1px solid #ddd;-->
-<!--    }-->
-<!--    .scrollable-table table {-->
-<!--        width: 100%;-->
-<!--        border-collapse: collapse;-->
-<!--    }-->
-<!--    .title.has-text-centered {-->
-<!--        text-align: center;-->
-<!--        margin-bottom: 15px;-->
-<!--    }-->
-<!--    th {-->
-<!--        cursor: pointer;-->
-<!--    }-->
-<!--</style>-->
-<!-- End image carousel -->
+        retrievalModels.sort((a, b) => b.wise - a.wise);
+        rerankingModels.sort((a, b) => b.wise - a.wise);
 
+        populateDropdown("retrieval-list", retrievalModels, "retrievalRadarChart");
+        populateDropdown("reranking-list", rerankingModels, "rerankingRadarChart", true);
+
+        updateRadarChart("retrievalRadarChart", retrievalModels.slice(0, 5));
+        updateRadarChart("rerankingRadarChart", rerankingModels.slice(0, 5));
+    }
+
+    function populateDropdown(listId, models, chartId, isReranking = false) {
+        const modelList = document.getElementById(listId);
+        modelList.innerHTML = "";
+        models.forEach(model => {
+            const checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.value = model.model_name;
+            checkbox.id = model.model_name;
+            checkbox.checked = models.slice(0, 5).includes(model);
+
+            const label = document.createElement("label");
+            label.htmlFor = model.model_name;
+            label.textContent = isReranking ? `${model.model_name} (${model.type.split('-')[0].trim()})` : model.model_name;
+
+            const div = document.createElement("div");
+            div.className = "dropdown-item";
+            div.appendChild(checkbox);
+            div.appendChild(label);
+            modelList.appendChild(div);
+        });
+
+        modelList.addEventListener("change", function () {
+            const selectedModels = Array.from(modelList.querySelectorAll("input:checked"))
+                .map(input => input.value);
+            const filteredModels = models.filter(model => selectedModels.includes(model.model_name));
+            updateRadarChart(chartId, filteredModels);
+        });
+    }
+
+    function updateRadarChart(chartId, selectedModels) {
+        const ctx = document.getElementById(chartId)?.getContext('2d');
+        if (!ctx) {
+            console.error("Canvas not found for:", chartId);
+            return;
+        }
+
+        if (window[chartId] instanceof Chart) {
+            window[chartId].destroy();
+        }
+
+        const labels = ["Audience", "Keywords", "Format", "Language", "Length", "Source"];
+        const datasets = selectedModels.map(model => {
+            const dataPoints = labels.map(dim => (model[dim] && model[dim].wise) ? model[dim].wise : 0);
+            console.log("Model:", model.model_name, "Data:", dataPoints);
+            return {
+                label: model.model_name,
+                data: dataPoints,
+                fill: true,
+                borderColor: getRandomColor(),
+                backgroundColor: getRandomColor(0.2)
+            };
+        });
+
+        console.log("Final dataset for:", chartId, datasets);
+
+        window[chartId] = new Chart(ctx, {
+            type: 'radar',
+            data: {labels, datasets},
+            options: {responsive: true}
+        });
+    }
+
+    function getRandomColor(alpha = 1) {
+        return `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${alpha})`;
+    }
+
+    document.getElementById("retrieval-dropdown").addEventListener("click", function () {
+        this.classList.toggle("is-active");
+    });
+
+    document.getElementById("reranking-dropdown").addEventListener("click", function () {
+        this.classList.toggle("is-active");
+    });
+
+    document.addEventListener("DOMContentLoaded", loadModelData);
+</script>
 
 <!--BibTex citation -->
 <section class="section" id="BibTeX">
@@ -434,29 +488,6 @@
 <!--End BibTex citation -->
 
 
-<!--  <footer class="footer">-->
-<!--  <div class="container">-->
-<!--    <div class="columns is-centered">-->
-<!--      <div class="column is-8">-->
-<!--        <div class="content">-->
-
-<!--          <p>-->
-<!--            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.-->
-<!--            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative-->
-<!--            Commons Attribution-ShareAlike 4.0 International License</a>.-->
-<!--          </p>-->
-
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</footer>-->
-
-<!-- Statcounter tracking code -->
-
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-<!-- End of Statcounter Code -->
 
 </body>
 </html>
